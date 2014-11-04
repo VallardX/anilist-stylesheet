@@ -23,6 +23,10 @@ td {
 	border-bottom: 1px solid #2F343C;
 }
 
+tr {
+	background-color: #F2F2F2;
+}
+
 #lists {
 	font-family: 'Roboto';
 	font-size: 14px;
