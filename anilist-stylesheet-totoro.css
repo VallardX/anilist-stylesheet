@@ -1,0 +1,59 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,500);
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:800);
+
+{ANILIST-COUNT}
+
+body {
+	background-image: url('http://i.imgur.com/etYp2lS.jpg');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h3 {
+color: #2F343C;
+    font-family: 'Alegreya Sans SC';
+	font-size: 32px;
+	font-weight: 800;
+}
+
+td {
+	border-bottom: 1px solid #2F343C;
+}
+
+#lists {
+	font-family: 'Roboto';
+	font-size: 14px;
+}
+.tablesorter-headerRow {
+    background: #2F343C;
+    color: white;
+}
+
+.tablesorter-header-inner {
+	font-weight: normal;
+}
+
+.hover_icon, .sml_col {
+    padding: 5px 10px 5px;
+}
+
+/* Side bar fix */
+
+#sideNav {
+    width: 200px;
+}
+
+#sideNav header {
+    height: 30px;
+}
+
+#sideNav header h1 {
+    width: 140px;
+}
+
+#sideNav header .img_crop {
+    width: 30px;
+    height: 30px;
+}
