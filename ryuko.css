@@ -27,6 +27,10 @@ tr {
   background-color: #F2F2F2;
 }
 
+tr:hover {
+  background-color: white;
+}
+
 #lists {
   font-family: 'Roboto';
   font-size: 14px;
@@ -43,7 +47,8 @@ tr {
   margin: 0px 60px;
 }
 
-.tablesorter-headerRow {
+.tablesorter-headerRow,
+.tablesorter-headerRow:hover {
   background: #2F343C;
   color: white;
 }
