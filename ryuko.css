@@ -4,73 +4,73 @@
 {ANILIST-COUNT}
 
 body {
-	background-image: url('http://i.imgur.com/HYc3FFG.jpg');
-	background-color: white;
-	background-repeat: no-repeat;
-	background-position: right center;
-	background-size: auto 80%;
-	background-attachment: fixed;
+  background-image: url('http://i.imgur.com/WRBhAoK.jpg');
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: calc(100% - 1150px) auto;
+  background-attachment: fixed;
 }
 
 h3 {
-	color: #2F343C;
-	font-family: 'Alegreya Sans SC';
-	font-size: 32px;
-	font-weight: 800;
+  color: #2F343C;
+  font-family: 'Alegreya Sans SC';
+  font-size: 32px;
+  font-weight: 800;
 }
 
 td {
-	border-bottom: 1px solid #2F343C;
+  border-bottom: 1px solid #2F343C;
 }
 
 tr {
-	background-color: #F2F2F2;
+  background-color: #F2F2F2;
 }
 
 #lists {
-	font-family: 'Roboto';
-	font-size: 14px;
+  font-family: 'Roboto';
+  font-size: 14px;
 }
 
 #list_header {
-	max-width: 856px;
-	margin-left: 0px;
-	left: 250px;
+  max-width: 856px;
+  margin-left: 0px;
+  left: 250px;
 }
 
 .list_wrapper {
-	float: left;
-	margin: 0px 60px;
+  float: left;
+  margin: 0px 60px;
 }
 
 .tablesorter-headerRow {
-	background: #2F343C;
-	color: white;
+  background: #2F343C;
+  color: white;
 }
 
 .tablesorter-header-inner {
-	font-weight: normal;
+  font-weight: normal;
 }
 
 .hover_icon, .sml_col {
-	padding: 5px 10px 5px;
+  padding: 5px 10px 5px;
 }
 
 /* Side bar fix */
 
 #sideNav {
-	width: 200px;
+  width: 200px;
 }
 
 #sideNav header {
-	height: 30px;
+  height: 30px;
 }
 
 #sideNav header h1 {
-	width: 140px;
+  width: 140px;
 }
 
 #sideNav header .img_crop {
-	width: 30px;
-	height: 30px;
+  width: 30px;
+  height: 30px;
 }
