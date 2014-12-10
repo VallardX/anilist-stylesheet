@@ -53,7 +53,8 @@ tr:hover {
 
 .list_wrapper {
   float: left;
-  margin: 0px 50px;
+  width: 55%;
+  left: 5%;
 }
 
 .hover_icon, .sml_col {
@@ -61,6 +62,7 @@ tr:hover {
 }
 
 /* Cover art setup */
+
 .sml_col:last-of-type,
 .sml_col:nth-of-type(1) {
   display: none;
