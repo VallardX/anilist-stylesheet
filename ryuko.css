@@ -2,6 +2,7 @@
 @import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC:800);
 
 {ANILIST-COUNT}
+{ANILIST-COVERS=LRG}
 
 body {
   background-image: url('http://i.imgur.com/WRBhAoK.jpg');
@@ -58,3 +59,27 @@ tr:hover {
 .hover_icon, .sml_col {
   padding: 5px 10px;
 }
+
+/* Cover art setup */
+.sml_col:last-of-type,
+.sml_col:nth-of-type(1) {
+  display: none;
+}
+
+.list tr {
+  background-size: 0;
+}
+
+.row__type {
+  background-size:cover; 
+  background-image: inherit; 
+  width: 12vw; height:17vw;
+  bottom:30vw; right:8vw;
+  position: fixed;
+  display: none; 
+}
+
+.rtitle:hover .row__type {
+	display:block;
+}
+     
