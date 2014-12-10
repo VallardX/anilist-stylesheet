@@ -60,22 +60,3 @@ tr:hover {
 .hover_icon, .sml_col {
   padding: 5px 10px 5px;
 }
-
-/* Side bar fix */
-
-#sideNav {
-  width: 200px;
-}
-
-#sideNav header {
-  height: 30px;
-}
-
-#sideNav header h1 {
-  width: 140px;
-}
-
-#sideNav header .img_crop {
-  width: 30px;
-  height: 30px;
-}
