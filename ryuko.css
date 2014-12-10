@@ -8,16 +8,10 @@ body {
   background-color: white;
   background-repeat: no-repeat;
   background-position: right center;
-  background-size: calc(100% - 1150px) auto;
+  background-size: 28% auto;
   background-attachment: fixed;
 }
 
-h3 {
-  color: #2F343C;
-  font-family: 'Alegreya Sans SC';
-  font-size: 32px;
-  font-weight: 800;
-}
 
 td {
   border-bottom: 1px solid #2F343C;
@@ -36,6 +30,13 @@ tr:hover {
   font-size: 14px;
 }
 
+#lists h3 {
+  color: #2F343C;
+  font-family: 'Alegreya Sans SC';
+  font-size: 32px;
+  font-weight: 800;
+}
+
 #list_header {
   max-width: 856px;
   margin-left: 0px;
@@ -45,12 +46,6 @@ tr:hover {
 .list_wrapper {
   float: left;
   margin: 0px 60px;
-}
-
-.tablesorter-headerRow,
-.tablesorter-headerRow:hover {
-  background: #2F343C;
-  color: white;
 }
 
 .tablesorter-header-inner {
