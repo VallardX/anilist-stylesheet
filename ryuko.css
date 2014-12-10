@@ -24,6 +24,15 @@ tr:hover {
   background-color: white;
 }
 
+[class^="header__"],
+[class^="header__"]:hover,
+[class^="sml_col header__"],
+[class^="sml_col header__"]:hover {
+  background-color: #2F343C;
+  color: white;
+  font-weight: normal;
+}
+
 #lists {
   font-family: 'Roboto';
   font-size: 14px;
