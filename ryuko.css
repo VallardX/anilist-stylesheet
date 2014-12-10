@@ -12,7 +12,6 @@ body {
   background-attachment: fixed;
 }
 
-
 td {
   border-bottom: 1px solid #2F343C;
 }
@@ -35,12 +34,6 @@ tr:hover {
   font-family: 'Alegreya Sans SC';
   font-size: 32px;
   font-weight: 800;
-}
-
-#list_header {
-  max-width: 856px;
-  margin-left: 0px;
-  left: 250px;
 }
 
 .list_wrapper {
