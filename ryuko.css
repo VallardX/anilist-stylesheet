@@ -73,13 +73,12 @@ tr:hover {
 .row__type {
   background-size:cover; 
   background-image: inherit; 
-  width: 12vw; height:17vw;
-  bottom:30vw; right:8vw;
+  width: 8.84vw; height:12.52vw;
+  bottom:22.1vw; right:5.90vw;
   position: fixed;
   display: none; 
 }
 
 .rtitle:hover .row__type {
-	display:block;
+  display:block;
 }
-     
