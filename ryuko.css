@@ -21,12 +21,12 @@
 }
 
 .row__type {
-  background-size:cover; 
-  background-image: inherit; 
+  background-size:cover;
+  background-image: inherit;
   width: 12vw; height:17vw;
   bottom:30vw; right:8vw;
   position: fixed;
-  display: none; 
+  display: none;
 }
 
 .rtitle:hover .row__type {
