@@ -9,7 +9,7 @@ body {
   background-color: white;
   background-repeat: no-repeat;
   background-position: right bottom;
-  background-size: 28% auto;
+  background-size: 38% auto;
   background-attachment: fixed;
 }
 
@@ -54,7 +54,7 @@ tr:hover {
 .list_wrapper {
   float: left;
   width: 55%;
-  left: 5%;
+  margin-left: 5%;
 }
 
 .hover_icon, .sml_col {
@@ -75,8 +75,8 @@ tr:hover {
 .row__type {
   background-size:cover; 
   background-image: inherit; 
-  width: 8.84vw; height:12.52vw;
-  bottom:22.1vw; right:5.90vw;
+  width: 12vw; height:17vw;
+  bottom:30vw; right:8vw;
   position: fixed;
   display: none; 
 }
