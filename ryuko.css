@@ -21,10 +21,16 @@
 }
 
 .row__type {
-  background-size:cover;
-  background-image: inherit;
   width: 12vw; height:17vw;
   bottom:30vw; right:8vw;
+
+  background-size:cover;
+  background-image: inherit;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: #2F343C;
+
   position: fixed;
   display: none;
 }
