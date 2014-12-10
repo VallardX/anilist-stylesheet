@@ -57,7 +57,7 @@ tr:hover {
 }
 
 [class^="header__"],
-[class^="sml_col header__"], {
+[class^="sml_col header__"] {
   background-color: #2F343C;
   color: white;
   font-weight: normal;
