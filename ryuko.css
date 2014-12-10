@@ -57,11 +57,16 @@ tr:hover {
 }
 
 [class^="header__"],
-[class^="header__"]:hover,
-[class^="sml_col header__"],
-[class^="sml_col header__"]:hover {
+[class^="sml_col header__"], {
   background-color: #2F343C;
   color: white;
+  font-weight: normal;
+}
+
+[class^="header__"]:hover,
+[class^="sml_col header__"]:hover {
+  background-color: #2F343C;
+  color: #F2F2F2;
   font-weight: normal;
 }
 
@@ -91,4 +96,3 @@ tr:hover {
 .hover_icon, .sml_col {
   padding: 5px 10px;
 }
-
