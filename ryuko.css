@@ -36,15 +36,15 @@ tr:hover {
   font-weight: 800;
 }
 
-.list_wrapper {
-  float: left;
-  margin: 0px 60px;
+#list_header {
+  display: none;
 }
 
-.tablesorter-header-inner {
-  font-weight: normal;
+.list_wrapper {
+  float: left;
+  margin: 0px 50px;
 }
 
 .hover_icon, .sml_col {
-  padding: 5px 10px 5px;
+  padding: 5px 10px;
 }
