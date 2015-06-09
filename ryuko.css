@@ -13,93 +13,93 @@
 
 .sml_col:last-of-type,
 .sml_col:nth-of-type(1) {
-  display: none;
+    display: none;
 }
 
 .list tr {
-  background-size: 0;
+    background-size: 0;
 }
 
 .row__type {
-  width: 12vw; height:17vw;
-  bottom:30vw; right:8vw;
+    width: 12vw; height:17vw;
+    bottom:30vw; right:8vw;
 
-  background-size:cover;
-  background-image: inherit;
+    background-size:cover;
+    background-image: inherit;
 
-  border: none;
-  box-shadow: 4px 4px 8px rgba(0,0,0,.4);
+    border: none;
+    box-shadow: 4px 4px 8px rgba(0,0,0,.4);
 
-  position: fixed;
-  display: none;
+    position: fixed;
+    display: none;
 }
 
 .rtitle:hover .row__type {
-  display:block;
+    display:block;
 }
 
 /* ------------------------------------------------------------ */ /* Color scheme and table setup */
 
 body {
-  background-image: url('http://i.imgur.com/WRBhAoK.jpg');
-  background-color: white;
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-size: 38% auto;
-  background-attachment: fixed;
+    background-image: url('http://i.imgur.com/WRBhAoK.jpg');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 38% auto;
+    background-attachment: fixed;
 }
 
 td {
-  border-bottom: 1px solid #2F343C;
+    border-bottom: 1px solid #2F343C;
 }
 
 tr {
-  background-color: #F2F2F2;
+    background-color: #F2F2F2;
 }
 
 tr:hover {
-  background-color: white;
+    background-color: white;
 }
 
 [class^="header__"],
 [class^="sml_col header__"] {
-  background-color: #2F343C;
-  color: white;
-  font-weight: normal;
+    background-color: #2F343C;
+    color: white;
+    font-weight: normal;
 }
 
 [class^="header__"]:hover,
 [class^="sml_col header__"]:hover {
-  background-color: #2F343C;
-  color: #F2F2F2;
-  font-weight: normal;
+    background-color: #2F343C;
+    color: #F2F2F2;
+    font-weight: normal;
 }
 
 #lists {
-  font-family: 'Roboto';
-  font-size: 14px;
-  margin-top: 0px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin-top: 0px;
 }
 
 #lists h3 {
-  color: #2F343C;
-  font-family: 'Alegreya Sans SC';
-  font-size: 32px;
-  font-weight: 800;
-  margin-bottom: 0px;
-  padding: 0px;
+    color: #2F343C;
+    font-family: 'Alegreya Sans SC';
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 0px;
+    padding: 0px;
 }
 
 #list_header {
-  display: none;
+    display: none;
 }
 
 .list_wrapper {
-  float: left;
-  width: 55%;
-  margin-left: 5%;
+    float: left;
+    width: 55%;
+    margin-left: 5%;
 }
 
 .hover_icon, .sml_col {
-  padding: 5px 10px;
+    padding: 5px 10px;
 }
